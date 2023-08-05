@@ -35,7 +35,7 @@ function Newposts() {
     formData.append("image", PostImage);
 
     try {
-      await axios.post("https://instaclone-77h3.onrender.com/new", formData, {
+      await axios.post("https://instaclone-node-urrc.onrender.com/new", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       // alert("Image Uploaded Successfully");
